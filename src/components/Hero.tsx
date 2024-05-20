@@ -31,7 +31,7 @@ import {
               </Text>
             </Heading>
             <Text color={'gray.500'} maxW={'3xl'}>
-              At <strong>Atlas Web Design</strong>, we believe that simplicity is the ultimate sophistication. We craft elegant and intuitive websites that capture your brand essence while providing seamless user experiences.
+              At <strong>Atlas Web Design</strong>, we believe that simplicity is the ultimate sophistication. We craft intuitive websites that capture your brand essence while providing seamless user experiences.
             </Text>
             <Stack spacing={6} direction={'row'}>
               <Button
