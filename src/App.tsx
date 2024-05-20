@@ -13,8 +13,8 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={ <Home />} />
           <Route path="/about" element={ <About />} />
-          <Route path="/farmers" element={ <Services />} />
-          <Route path="/marketplace" element={ <Contact />} />
+          <Route path="/services" element={ <Services />} />
+          <Route path="/contact" element={ <Contact />} />
         </Routes>
       </Router>
     </ChakraProvider>
