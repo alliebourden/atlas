@@ -4,17 +4,20 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import { ChakraProvider } from '@chakra-ui/react'
 
 const App: React.FC = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={ <Home />} />
-        <Route path="/about" element={ <About />} />
-        <Route path="/farmers" element={ <Services />} />
-        <Route path="/marketplace" element={ <Contact />} />
-      </Routes>
-    </Router>
+    <ChakraProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={ <Home />} />
+          <Route path="/about" element={ <About />} />
+          <Route path="/farmers" element={ <Services />} />
+          <Route path="/marketplace" element={ <Contact />} />
+        </Routes>
+      </Router>
+    </ChakraProvider>
   );
 
 }
